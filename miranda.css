@@ -45,7 +45,6 @@ body {
   height: 30%;
 }
 #elem {
-  height: 45%;
   /* background-color: red; */
   display: flex;
   margin: 1% 0%;
@@ -95,14 +94,15 @@ body {
 }
 
 #elem2 {
-  height: 100%;
-  width: 28%;
+  /* height: 100%;
+  width: 28%; */
   border-left: 1px solid rgb(63, 63, 63);
   border-right: 1px solid rgb(63, 63, 63);
   text-align: center;
   padding: 1% 4%;
 }
 #elem2 h1 {
+  width: 100%;
   font-family: canopee;
   color: #1c1c1a;
   font-size: 4em;
