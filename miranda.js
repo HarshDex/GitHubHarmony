@@ -20,3 +20,5 @@
 //   scale: 1,
 //   duration: 1,
 // });
+
+//Disabled JS as it was wasting time one each reload
