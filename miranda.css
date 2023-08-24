@@ -157,20 +157,12 @@ body {
 }
 
 #div-text {
-  height: 70%;
-  width: 97%;
   background-color: #1c1c19;
-  margin: 3% 1.5%;
-  padding: 0;
   color: #c5bdb3;
   font-family: canopee;
-  font-size: 28em;
+  font-size: 28vw;
   letter-spacing: -10px;
   font-weight: 500;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #page-2 {
