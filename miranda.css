@@ -1,252 +1,255 @@
 @font-face {
-    font-family: domain;
-    src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+  font-family: domain;
+  src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
 }
 @font-face {
-    font-family: canopee;
-    src: url(./616fd1dd00cf6c70f978fc69_Canopee.ttf);
+  font-family: canopee;
+  src: url(./616fd1dd00cf6c70f978fc69_Canopee.ttf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "canopee";
 }
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-#main{
-    background-color: rgb(38, 37, 37);
-}
-
-#page-1{
-    height: 100vh;
-    width: 100%;
-    background-color : #C5BDB3;
-}
-#page-1 #nav{
-    height: 12%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2%;
-    border-bottom: 1px solid black;
-}
-#nav-h5 h5{
-    font-family: canopee;
-    font-weight: 10;
-    color: rgb(91, 90, 90);
-}
-#nav img{
-    height: 30%;
-}
-#elem{
-    height: 45%;
-    /* background-color: red; */
-    display: flex;
-    margin: 1% 0%;
-}
-#elem #elem1{
-    height: 100%;
-    width: 36%;
-    padding : 2% 5%;
-    /* background-color: blue; */
-}
-.div-elem-image{
-    height: 60%;
-    width: 100%;
-    overflow: hidden;
-}
-.div-elem-image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: 1px solid black;
-    transition : all ease .5s;
-}
-.div-elem-image:hover img{
-    transform : scale(1.1);
+#main {
+  background-color: rgb(38, 37, 37);
 }
 
-#elem1 h4{
-    font-family: canopee;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    font-weight: 500;
-    font-size: 1.2em;
-    letter-spacing: -1px;
+#page-1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #c5bdb3;
+  overflow: hidden;
 }
-#elem1 h4 span{
-    background-color: #B83C12;
-    color: white;
-    line-height: 10px;
-    font-weight: 100;
-    padding : 2px;
-    font-size: 0.8em;
-    border-radius : 2px;
+#page-1 #nav {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+  border-bottom: 1px solid black;
 }
-#elem1 p{
-    font-size: 1em;
-    color: rgb(83, 83, 83);
+#nav-h5 h5 {
+  font-family: canopee;
+  font-weight: 10;
+  color: rgb(91, 90, 90);
 }
-
-#elem2{
-    height: 100%;
-    width: 28%;
-    border-left: 1px solid rgb(63, 63, 63);
-    border-right: 1px solid rgb(63, 63, 63);
-    text-align: center;
-    padding: 1% 4%;
+#nav img {
+  height: 30%;
 }
-#elem2 h1{
-    font-family: canopee;
-    color: #1C1C1A;
-    font-size: 4em;
-    font-weight: 50;
-    margin-bottom: 2%;
-    letter-spacing: -3px;
-
+#elem {
+  height: 45%;
+  /* background-color: red; */
+  display: flex;
+  margin: 1% 0%;
 }
-#elem2 h3{
-    font-family: domain;
-    color: rgb(63, 62, 62);
-    font-size: 2em;
-    font-weight: 50;
-    margin-bottom : 10%;
+#elem #elem1 {
+  height: 100%;
+  width: 36%;
+  padding: 2% 5%;
+  /* background-color: blue; */
 }
-#elem2 h6 span{
-    color: rgbrgb(49, 48, 48);
-    font-weight: 800;
+.div-elem-image {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
 }
-
-#elem2 h6{
-    font-family: domain;
-    font-size: 1em;
-    font-weight: 100;
-    color: rgb(63, 63, 63);
+.div-elem-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+  transition: all ease 0.5s;
 }
-#elem3{
-    height: 100%;
-    width: 36%;
-    padding : 2% 5%;
+.div-elem-image:hover img {
+  transform: scale(1.1);
 }
 
-#elem3 h4{
-    font-family: canopee;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    font-weight: 560;
-    font-size: 1.5em;
-    letter-spacing: 0px;
+#elem1 h4 {
+  font-family: canopee;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+#elem1 h4 span {
+  background-color: #b83c12;
+  color: white;
+  line-height: 10px;
+  font-weight: 100;
+  padding: 2px;
+  font-size: 0.8em;
+  border-radius: 2px;
+}
+#elem1 p {
+  font-size: 1em;
+  color: rgb(83, 83, 83);
 }
 
-#elem3 h4 span{
-    background-color: #B83C12;
-    color: white;
-    font-weight: 100;
-    padding : 2px;
-    font-size: 0.6em;
-    border-radius : 2px;
+#elem2 {
+  height: 100%;
+  width: 28%;
+  border-left: 1px solid rgb(63, 63, 63);
+  border-right: 1px solid rgb(63, 63, 63);
+  text-align: center;
+  padding: 1% 4%;
 }
-#elem3 p{
-    font-size: 1em;
-    color: rgb(83, 83, 83);
+#elem2 h1 {
+  font-family: canopee;
+  color: #1c1c1a;
+  font-size: 4em;
+  font-weight: 50;
+  margin-bottom: 2%;
+  letter-spacing: -3px;
 }
-
-#div-text{
-    height: 70%;
-    width: 97%;
-    background-color: #1C1C19;
-    margin: 3% 1.5%;
-    padding: 0;
-    color : #C5BDB3;
-    font-family: canopee;
-    font-size: 28em;
-    letter-spacing: -10px;
-    font-weight: 500;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#elem2 h3 {
+  font-family: domain;
+  color: rgb(63, 62, 62);
+  font-size: 2em;
+  font-weight: 50;
+  margin-bottom: 10%;
+}
+#elem2 h6 span {
+  color: rgbrgb(49, 48, 48);
+  font-weight: 800;
 }
 
-#page-2{
-    height: 200vh;
-    width: 100%;
-    background-color : #C5BDB3;
-    display: flex;
-    /* position: relative; */
+#elem2 h6 {
+  font-family: domain;
+  font-size: 1em;
+  font-weight: 100;
+  color: rgb(63, 63, 63);
 }
-#page-2 #left-div{
-    height: 78%;
-    width: 35%;
-    position: relative;
-    top: 20%;
-    padding: 0% 2%;
+#elem3 {
+  height: 100%;
+  width: 36%;
+  padding: 2% 5%;
 }
 
-#left-div #page2-text-div{
-    height: 22%;
-    width: 100%;
-    text-align: center;
-    font-family: canopee;
-    line-height: 6em;
-}
-#page2-text-div h1{
-    font-size: 6em;
-    font-weight : 500;
-    letter-spacing: -4px;
-}
-#page2-text-div h2{
-    font-size: 8.6em;
-    font-weight: 100;
-}
-#page2-image{
-    margin : 5% 0;
-    height: 50%;
-    width: 100%;
-}
-#page2-image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-#page2-text2-div{
-    text-align: left;
-    font-family: conopee;
-    font-size: 1.8em;
-    font-weight: 60;
-    letter-spacing: -2px;
-    color: rgb(83, 83, 83);
-}
-#page-2 #right-div{
-    height : 78%;
-    width: 65%;
-    position: relative;
-    top: 20%;
-    padding: 0% 2%;
-    border-left : 1px solid rgb(99, 98, 98)
+#elem3 h4 {
+  font-family: canopee;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  font-weight: 560;
+  font-size: 1.5em;
+  letter-spacing: 0px;
 }
 
-#right-div-image{
-    height: 60%;
-    width: 100%;
+#elem3 h4 span {
+  background-color: #b83c12;
+  color: white;
+  font-weight: 100;
+  padding: 2px;
+  font-size: 0.6em;
+  border-radius: 2px;
 }
-#right-div-image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+#elem3 p {
+  font-size: 1em;
+  color: rgb(83, 83, 83);
 }
-#right-div-text{
-    margin: 4% 0;
-    height: 38%;
+
+#div-text {
+  height: 70%;
+  width: 97%;
+  background-color: #1c1c19;
+  margin: 3% 1.5%;
+  padding: 0;
+  color: #c5bdb3;
+  font-family: canopee;
+  font-size: 28em;
+  letter-spacing: -10px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#right-div-text h1{
-    font-family: canopee;
-    font-size: 5em;
-    font-weight: 500;
-    text-align: left;
-    letter-spacing: -2px;
-    color: #1B1B19;
+
+#page-2 {
+  height: 200vh;
+  width: 100%;
+  background-color: #c5bdb3;
+  display: flex;
+  /* position: relative; */
+}
+#page-2 #left-div {
+  height: 78%;
+  width: 35%;
+  position: relative;
+  top: 20%;
+  padding: 0% 2%;
+}
+
+#left-div #page2-text-div {
+  height: 22%;
+  width: 100%;
+  text-align: center;
+  font-family: canopee;
+  line-height: 6em;
+}
+#page2-text-div h1 {
+  font-size: 6em;
+  font-weight: 500;
+  letter-spacing: -4px;
+}
+#page2-text-div h2 {
+  font-size: 8.6em;
+  font-weight: 100;
+}
+#page2-image {
+  margin: 5% 0;
+  height: 50%;
+  width: 100%;
+}
+#page2-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#page2-text2-div {
+  text-align: left;
+  font-family: conopee;
+  font-size: 1.8em;
+  font-weight: 60;
+  letter-spacing: -2px;
+  color: rgb(83, 83, 83);
+}
+#page-2 #right-div {
+  height: 78%;
+  width: 65%;
+  position: relative;
+  top: 20%;
+  padding: 0% 2%;
+  border-left: 1px solid rgb(99, 98, 98);
+}
+
+#right-div-image {
+  height: 60%;
+  width: 100%;
+}
+#right-div-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#right-div-text {
+  margin: 4% 0;
+  height: 38%;
+  overflow: hidden;
+}
+#right-div-text h1 {
+  font-family: canopee;
+  font-size: 5em;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: -2px;
+  color: #1b1b19;
 }
